@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Media Downloader",
+    "version": "1.0",
+    "permissions": ["contextMenus", "downloads", "activeTab"],
+    "host_permissions": [
+        "http://localhost:19988/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
